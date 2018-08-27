@@ -31,6 +31,7 @@ namespace Test
                 detailDescriptionLabel.Text = DetailItem.ToString();
 
             Test();
+            Test2();
         }
 
         public override void ViewDidLoad()
@@ -43,6 +44,11 @@ namespace Test
         void Test()
         {
             
+        }
+
+        void Test2()
+        {
+
         }
 
         public override void DidReceiveMemoryWarning()
