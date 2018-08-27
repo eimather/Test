@@ -29,6 +29,8 @@ namespace Test
             // Update the user interface for the detail item
             if (IsViewLoaded && DetailItem != null)
                 detailDescriptionLabel.Text = DetailItem.ToString();
+
+            Test();
         }
 
         public override void ViewDidLoad()
@@ -36,6 +38,11 @@ namespace Test
             base.ViewDidLoad();
             // Perform any additional setup after loading the view, typically from a nib.
             ConfigureView();
+        }
+
+        void Test()
+        {
+            
         }
 
         public override void DidReceiveMemoryWarning()
