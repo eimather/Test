@@ -32,6 +32,7 @@ namespace Test
 
             Test();
             Test2();
+            Test3();
         }
 
         public override void ViewDidLoad()
@@ -47,6 +48,11 @@ namespace Test
         }
 
         void Test2()
+        {
+
+        }
+
+        void Test3()
         {
 
         }
